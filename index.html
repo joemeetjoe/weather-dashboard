@@ -14,13 +14,13 @@
         <h1>Weather Dashboard</h1>
     </header>
     <main class = "d-flex space-between">
-        <div id = "city-search-aside" class = "d-flex flex-column m-3 p-3 lg-vh-100 vh-xs-50 shadow-sm bg-dark text-white bg-gradient rounded">new york
+        <div id = "city-search-aside" class = "d-flex flex-column m-3 p-3 lg-vh-100 vh-xs-50 shadow-sm bg-dark text-white bg-gradient rounded">
             <h2>Search for a city:</h2>
             <input id = "search-criteria" type="text" class = "rounded">
             <button id="search-button" class="bg-info text-white bg-gradient mt-1 mb-2 rounded w-20">Search</button>
-            <div id="city-button-list" class= "border-top-primary">put cities here</div>
+            <div id="city-button-list" class= "border-top-primary d-flex justify-content-center flex-column"></div>
         </div>
-        <div class="container">
+        <div id = "one-day-5-day-container" class="container">
             <div class = "card border-dark container mt-4 mh-20 shadow-lg bg-dark text-white bg-gradient">
                 <h2>City Name Here</h2>
                 <ul>
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <h2 class = "mt-3 justify-content-start border-dark">5-day Forecast:</h2>
-            <div id = "one-day-5-day-container" class="container">
+            <div  class="container">
                 <div class="row row-cols-auto d-flex justify-content-evenly">
                   <div class="five-day-forecast col-lg-2 d-flex flex-wrap ">
                     <div id="five-day-1" class="card bg-dark text-white bg-gradient shadow-lg five-day-card">
