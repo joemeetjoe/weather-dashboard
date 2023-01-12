@@ -20,6 +20,7 @@ If you would like to use this project, please click on the link below:
 https://joemeetjoe.github.io/weather-dashboard/
 
 ![_C__Users_joeme_Desktop_weather-dashboard_index html](https://user-images.githubusercontent.com/119348225/211966949-732bd205-5932-4179-a6ca-90b09f22d78f.png)
+![_C__Users_joeme_Desktop_weather-dashboard_index html (1)](https://user-images.githubusercontent.com/119348225/211967100-208921f1-65ed-4834-9915-5346d579b213.png)
 
 
 ## License
