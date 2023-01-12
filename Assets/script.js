@@ -16,7 +16,7 @@ function getLongAndLat(a){
   console.log(a);
   cityNameHeader.textContent = a;
   // constructing the api call and plugging in the city 
-    var LatLonApiCall = "http://api.openweathermap.org/geo/1.0/direct?q=" + a + "&limit=1&appid=45243bff2680411dc8b71cd9714f866f";
+    var LatLonApiCall = "https://api.openweathermap.org/geo/1.0/direct?q=" + a + "&limit=1&appid=45243bff2680411dc8b71cd9714f866f";
     // fetch call plugging in the api call and parsing it. 
     fetch(LatLonApiCall)
     .then(function (response) {
@@ -35,7 +35,7 @@ let weather5DayData;
 // 5 day weather function plugging in the lat and long from function getLatandLong
 function getWeather5Day(a, b){
   // constructing the api call and plugging in the a and b, also calling for the imperial system
-  var weather5DayApiCall = "http://api.openweathermap.org/data/2.5/forecast?lat=" + a + "&lon=" + b + "&appid=45243bff2680411dc8b71cd9714f866f&units=imperial"
+  var weather5DayApiCall = "https://api.openweathermap.org/data/2.5/forecast?lat=" + a + "&lon=" + b + "&appid=45243bff2680411dc8b71cd9714f866f&units=imperial"
   // fetch call plugging in the api call and parsing it
   fetch(weather5DayApiCall)
     .then(function (response) {
