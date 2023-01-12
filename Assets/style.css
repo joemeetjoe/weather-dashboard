@@ -1,14 +1,19 @@
+
+/* setting the top of the city button list to solid */
 #city-button-list{
     border-top: solid;
 }
+/* had to style the 5 day with css due to issues with bootstrap and 5 card setups */
 .five-day-forecast{
     width: 20%;
     padding-right: 10px;
     padding-left: 0;
 }
+/* eliminating the padding on the last child of the 5 day */
 .five-day-forecast:last-child{
     padding-right: 0;
 }
+/* adding some stylings to the history buttons */
 .history-buttons{
     border-radius: 5px;
     box-shadow: 5px;
